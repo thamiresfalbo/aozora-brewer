@@ -1,15 +1,18 @@
 [project]
 name = "aozora-brewer"
 version = "0.1.0"
-description = ""
+description = "A tool that converts Aozora Bunko(青空文庫) html files into epub."
 authors = [
-    {name = "Thamires Falbo",email = "111710331+thamiresfalbo@users.noreply.github.com"}
+    { name = "Thamires Falbo", email = "111710331+thamiresfalbo@users.noreply.github.com" },
 ]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pypub3 (>=2.0.7,<3.0.0)",
-    "beautifulsoup4 (>=4.13.3,<5.0.0)"
+    "beautifulsoup4 (>=4.13.3,<5.0.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "html5lib (>=1.1,<2.0)",
+    "lxml (>=5.3.1,<6.0.0)",
 ]
 
 
